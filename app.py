@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the Random Forest Classifier model from the .sav file
-filename = 'iplfile.sav'
+filename = 'first-innings-score-lr-model.sav'
 with open(filename, 'rb') as file:
     regressor = pickle.load(file)
 
